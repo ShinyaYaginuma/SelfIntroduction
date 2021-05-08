@@ -1,5 +1,5 @@
 <template>
-  <div id="skills">
+  <v-container id="skills">
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8">
@@ -84,22 +84,23 @@
         <div class="card">
           <h3 class="card-header">Handleable Software</h3>
           <div class="card-body">
-            <ul class="list-group">
-              <li class="list-group-item">Visual Studio</li>
-              <li class="list-group-item">Eclipse</li>
-              <li class="list-group-item">SQL Developer</li>
-              <li class="list-group-item">SQL Server Management Studio</li>
-              <li class="list-group-item">IIS</li>
-              <li class="list-group-item">Teraterm</li>
-              <li class="list-group-item">WireShark</li>
-              <li class="list-group-item">Hyper-V</li>
-            </ul>
+            <v-list-item-group>
+              <v-list-item class="list-group-item">Visual Studio</v-list-item>
+              <v-list-item class="list-group-item">Eclipse</v-list-item>
+              <v-list-item class="list-group-item"
+                >SQL Server Management Studio</v-list-item
+              >
+              <v-list-item class="list-group-item">IIS</v-list-item>
+              <v-list-item class="list-group-item">Teraterm</v-list-item>
+              <v-list-item class="list-group-item">WireShark</v-list-item>
+              <v-list-item class="list-group-item">Hyper-V</v-list-item>
+            </v-list-item-group>
           </div>
         </div>
       </div>
       <div class="col-2"></div>
     </div>
-  </div>
+  </v-container>
 </template>
 
 <script>
@@ -115,7 +116,6 @@ export default {
 .card {
   margin: 20px;
 }
-/* based in list-group */
 .ul-group-programming {
   display: flex;
   flex-direction: column;
