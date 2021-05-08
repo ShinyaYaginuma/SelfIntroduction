@@ -6,7 +6,7 @@
       <v-tabs>
         <v-tab>
           <router-link class="nav-link" to="/"
-            ><i class="bi bi-person"></i> Who am I</router-link
+            ><i class="bi bi-person"></i> About</router-link
           >
         </v-tab>
         <v-tab>
@@ -49,7 +49,7 @@
         <v-list-item-group>
           <v-list-item>
             <router-link class="nav-link" to="/"
-              ><i class="bi bi-person"></i> Who am I</router-link
+              ><i class="bi bi-person"></i> About</router-link
             >
           </v-list-item>
           <v-list-item>

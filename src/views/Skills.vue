@@ -125,6 +125,8 @@ export default {
   border-bottom-left-radius: 0.25rem;
 }
 h3 {
-  background: darkorange;
+  background: #1de9b6;
+  /* #FFFFFF */
+  /* #37474F */
 }
 </style>
