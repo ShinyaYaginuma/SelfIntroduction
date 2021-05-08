@@ -1,9 +1,8 @@
 <template>
   <v-container id="skills">
-    <div class="row">
-      <div class="col-2"></div>
-      <div class="col-8">
-        <div class="card">
+    <v-row>
+      <v-col cols="12" lg="12" md="12" sm="12" align="center">
+        <v-card>
           <h3 class="card-header">Qualification</h3>
           <div class="card-body">
             <table class="table" style="margin-bottom: 0px">
@@ -37,29 +36,11 @@
               </tbody>
             </table>
           </div>
-        </div>
+        </v-card>
+      </v-col>
+      <v-col cols="12" lg="12" md="12" sm="12" align="center">
         <div class="card">
           <h3 class="card-header">Programming</h3>
-          <!-- <div class="card-deck">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-text">Some more card content</p>
-                </div>
-                <div class="card-footer">2 days ago</div>
-              </div>
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-text">Some more card content</p>
-                </div>
-                <div class="card-footer">2 days ago</div>
-              </div>
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-text">Some more card content</p>
-                </div>
-                <div class="card-footer">2 days ago</div>
-              </div>
-            </div> -->
           <ul class="ul-group-programming">
             <li
               class="list-group-item d-flex justify-content-between align-items-center"
@@ -81,25 +62,46 @@
             </li>
           </ul>
         </div>
+      </v-col>
+      <v-col cols="12" lg="12" md="12" sm="12" align="center">
         <div class="card">
           <h3 class="card-header">Handleable Software</h3>
           <div class="card-body">
             <v-list-item-group>
-              <v-list-item class="list-group-item">Visual Studio</v-list-item>
-              <v-list-item class="list-group-item">Eclipse</v-list-item>
-              <v-list-item class="list-group-item"
-                >SQL Server Management Studio</v-list-item
+              <v-list-item
+                class="list-group-item d-flex justify-content-between align-items-center"
+                >Visual Studio</v-list-item
               >
-              <v-list-item class="list-group-item">IIS</v-list-item>
-              <v-list-item class="list-group-item">Teraterm</v-list-item>
-              <v-list-item class="list-group-item">WireShark</v-list-item>
-              <v-list-item class="list-group-item">Hyper-V</v-list-item>
+              <v-list-item
+                class="list-group-item d-flex justify-content-between align-items-center"
+                >Eclipse</v-list-item
+              >
+              <v-list-item
+                class="list-group-item d-flex justify-content-between align-items-center"
+                >SSMS
+              </v-list-item>
+              <v-list-item
+                class="list-group-item d-flex justify-content-between align-items-center"
+                >IIS</v-list-item
+              >
+              <v-list-item
+                class="list-group-item d-flex justify-content-between align-items-center"
+                >Teraterm</v-list-item
+              >
+              <v-list-item
+                class="list-group-item d-flex justify-content-between align-items-center"
+                >WireShark</v-list-item
+              >
+              <v-list-item
+                class="list-group-item d-flex justify-content-between align-items-center"
+                >Hyper-V</v-list-item
+              >
             </v-list-item-group>
           </div>
         </div>
-      </div>
+      </v-col>
       <div class="col-2"></div>
-    </div>
+    </v-row>
   </v-container>
 </template>
 
@@ -112,9 +114,6 @@ export default {
 <style scoped>
 #skills {
   text-align: center;
-}
-.card {
-  margin: 20px;
 }
 .ul-group-programming {
   display: flex;
