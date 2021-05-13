@@ -1,7 +1,11 @@
 <template>
   <header>
     <v-app-bar app dark>
-      <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon
+        clippedLeft
+        dark
+        @click="drawer = true"
+      ></v-app-bar-nav-icon>
       <v-toolbar-title>Portfolio Site</v-toolbar-title>
       <v-tabs>
         <v-tab>
@@ -44,7 +48,7 @@
         </v-tab>
       </v-tabs>
     </v-app-bar>
-    <v-navigation-drawer v-model="drawer" absolute temporary>
+    <v-navigation-drawer v-model="drawer" dark absolute temporary>
       <v-list nav dense>
         <v-list-item-group>
           <v-list-item>
@@ -120,5 +124,9 @@ export default {
   @include display_pc {
     display: block !important;
   }
+}
+
+.nav-link {
+  text-transform: none;
 }
 </style>
