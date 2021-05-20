@@ -125,8 +125,15 @@ export default {
   border-bottom-left-radius: 0.25rem;
 }
 h3 {
+  padding: 1.15rem;
+  font-size: 1.2rem;
   background: #1de9b6;
-  /* #FFFFFF */
-  /* #37474F */
+  /* background: #ffffff;
+  background: #1de9b6;
+  background: #37474f;
+  background: #ff5252;
+  background: #2196f3;
+  background: #4caf50;
+  background: #ffc107; */
 }
 </style>

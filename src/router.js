@@ -2,7 +2,6 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import BootstrapVue from 'bootstrap-vue'
 import Home from './views/Home.vue'
-import Skills from './views/Skills.vue'
 
 Vue.use(Router)
 Vue.use(BootstrapVue) // for BootstrapVue
@@ -21,10 +20,10 @@ export default new Router({
             name: 'home',
             component: Home
         },
-        {
-            path: '/skills',
-            name: 'skills',
-            component: Skills
-        },
+        // {
+        //     path: '/skills',
+        //     name: 'skills',
+        //     component: Skills
+        // },
     ]
 })

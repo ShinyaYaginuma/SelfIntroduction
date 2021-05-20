@@ -1,5 +1,9 @@
 <template>
   <v-container id="home">
+    <AboutMe msg="Welcome!!!!" />
+    <Skills />
+  </v-container>
+  <!-- <v-container id="home">
     <v-row justify="center" align-content="center">
       <v-col cols="12" lg="12" md="12" sm="12" align="center">
         <img
@@ -15,17 +19,19 @@
         <AboutMe msg="Welcome to My Page" />
       </v-col>
     </v-row>
-  </v-container>
+  </v-container> -->
 </template>
 
 <script>
 // @ を指定することで `/src` の代替となる
 import AboutMe from "@/components/AboutMe.vue";
+import Skills from "@/components/Skills.vue";
 
 export default {
   name: "Home",
   components: {
     AboutMe,
+    Skills,
   },
 };
 </script>
