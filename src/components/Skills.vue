@@ -26,12 +26,23 @@
                   </td>
                 </tr>
                 <tr>
-                  <th scope="row">2019/06</th>
+                  <th scope="row">2019/04</th>
                   <td>応用情報処理技術者</td>
                 </tr>
                 <tr>
                   <th scope="row">2019/07</th>
                   <td>Developing Solutions for Microsoft Azure_AZ-203</td>
+                </tr>
+                <tr>
+                  <th scope="row">2022/02</th>
+                  <td>
+                    <img
+                      height="40"
+                      width="40"
+                      src="../assets/aws-certified-solutions-architect-associate.png"
+                    />
+                    AWS Certified Solutions Architect – Associate
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -43,19 +54,34 @@
           <h3 class="card-header">Programming</h3>
           <ul class="ul-group-programming">
             <li
-              class="list-group-item d-flex justify-content-between align-items-center"
+              class="
+                list-group-item
+                d-flex
+                justify-content-between
+                align-items-center
+              "
             >
               C# ( .NET Framework, ASP.NET, WPF )
               <small class="text-muted">4 year</small>
             </li>
             <li
-              class="list-group-item d-flex justify-content-between align-items-center"
+              class="
+                list-group-item
+                d-flex
+                justify-content-between
+                align-items-center
+              "
             >
               Java ( Spring, Spring Boot )
               <small class="text-muted">2 year</small>
             </li>
             <li
-              class="list-group-item d-flex justify-content-between align-items-center"
+              class="
+                list-group-item
+                d-flex
+                justify-content-between
+                align-items-center
+              "
             >
               Basic knowledge of the Web, Vue.js
               <small class="text-muted">recently ( 2021/5~ )</small>
@@ -69,31 +95,66 @@
           <div class="card-body">
             <v-list-item-group>
               <v-list-item
-                class="list-group-item d-flex justify-content-between align-items-center"
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
                 >Visual Studio</v-list-item
               >
               <v-list-item
-                class="list-group-item d-flex justify-content-between align-items-center"
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
                 >Eclipse</v-list-item
               >
               <v-list-item
-                class="list-group-item d-flex justify-content-between align-items-center"
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
                 >SSMS
               </v-list-item>
               <v-list-item
-                class="list-group-item d-flex justify-content-between align-items-center"
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
                 >IIS</v-list-item
               >
               <v-list-item
-                class="list-group-item d-flex justify-content-between align-items-center"
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
                 >Teraterm</v-list-item
               >
               <v-list-item
-                class="list-group-item d-flex justify-content-between align-items-center"
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
                 >WireShark</v-list-item
               >
               <v-list-item
-                class="list-group-item d-flex justify-content-between align-items-center"
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
                 >Hyper-V</v-list-item
               >
             </v-list-item-group>
